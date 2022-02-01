@@ -5,8 +5,8 @@ import Somaliland from "./regions/Somaliland";
 function Region() {
   return (
     <div className="landing">
-      <Somaliland />
       <Somalia />
+      <Somaliland />
     </div>
   );
 }
