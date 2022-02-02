@@ -12,6 +12,8 @@ body {
   background-color: black;
   color: white;
   padding-bottom: 2rem;
+  /* padding-right: 1rem; */
+  /* padding-left: 1rem; */
   padding-top: 0.5rem;
 }
 
@@ -184,21 +186,22 @@ body {
 
 /* Position and sizing of burger button */
 .bm-burger-button {
-  position: relative;
-  width: 25px;
-  height: 25px;
+  position: fixed;
+  width: 24px;
+  height: 24px;
   right: 12px;
-  top: 7px;
+  top: 15px;
   float: right;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .bm-burger-button {
     width: 20px;
     height: 20px;
     left: 7px;
+    float: right;
   }
-}
+} */
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
