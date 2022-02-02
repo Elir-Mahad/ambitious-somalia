@@ -16,16 +16,16 @@ function SideBar(props) {
     >
       {/*  */}
       {/* <Link to="/"> */}
-      <a>Home</a>
+      <p>Home</p>
       {/* </Link> */}
       {/* <Link> */}
-      <a>Resources</a>
+      <p>Resources</p>
       {/* </Link> */}
       {/* <Link> */}
-      <a>Philosophy</a>
+      <p>Philosophy</p>
       {/* </Link> */}
       {/* <Link> */}
-      <a>Ecosystems</a>
+      <p>Ecosystems</p>
       {/* </Link> */}
       <button className="greenMenubutton">Anything missing ?</button>
       {/*  */}

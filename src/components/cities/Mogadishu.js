@@ -57,7 +57,12 @@ export default function Mogadishu() {
     <div className="mogPage">
       <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <div id="page-wrap">
-        <a className="menuHook">Explore your ecosystem</a>
+        <a
+          href="https://elir-mahad.github.io/ambitious-somalia/"
+          className="menuHook"
+        >
+          Explore your ecosystem
+        </a>
         <div>
           <Fade duration={5000}>
             <div style={{ filter: blurOne }} className="textBox1">

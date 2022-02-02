@@ -9,7 +9,12 @@ function MogResources() {
     <div className="reswrapper">
       <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <div id="page-wrap">
-        <a className="menuHook">Explore your ecosystem</a>
+        <a
+          href="https://elir-mahad.github.io/ambitious-somalia/"
+          className="menuHook"
+        >
+          Explore your ecosystem
+        </a>
         <div className="resTextBox">
           <p className="heading">keys Mogadishu </p>
           <p className="hook">
@@ -34,7 +39,11 @@ function MogResources() {
           <h2 className="directoryHeading">Complete directory</h2>
           <div className="row">
             <div className="company">
-              <img className="companylogo" src={iriselogo} />
+              <img
+                alt="logo of irise company"
+                className="companylogo"
+                src={iriselogo}
+              />
               <h2 className="companyname">Irisehub</h2>
               <p className="companyinfo">
                 Rise is the first innovation and technology hub that is launched
@@ -48,7 +57,11 @@ function MogResources() {
             </div>
             {/*  */}
             <div className="company">
-              <img className="companylogo" src={simadlogo} />
+              <img
+                alt="logo of simad labs"
+                className="companylogo"
+                src={simadlogo}
+              />
               <h2 className="companyname">Simad labs</h2>
               <p className="companyinfo">
                 At SIMAD iLab, we help make a positive impact on Somalia and the

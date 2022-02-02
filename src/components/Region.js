@@ -8,7 +8,12 @@ function Region() {
     <div className="landing">
       <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
       <div id="page-wrap">
-        <a className="menuHook">Explore your ecosystem</a>
+        <a
+          href="https://elir-mahad.github.io/ambitious-somalia/"
+          className="menuHook"
+        >
+          Explore your ecosystem
+        </a>
         <Somalia />
         <Somaliland />
       </div>
