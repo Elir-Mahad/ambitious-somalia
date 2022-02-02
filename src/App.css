@@ -12,9 +12,6 @@ body {
   background-color: black;
   color: white;
   padding-bottom: 2rem;
-  /* padding-right: 1rem; */
-  /* padding-left: 1rem; */
-  padding-top: 0.5rem;
 }
 
 .regionName {
@@ -152,7 +149,7 @@ body {
     rgb(25, 25, 25) 100%
   );
   margin-right: 2rem;
-  margin-top: 0.2rem;
+  margin-top: 0.5rem;
   padding: 0.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
