@@ -98,9 +98,8 @@ body {
 .textBox1,
 .textBox2,
 .textBox3 {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-  margin-bottom: 1rem;
+  margin-top: 12rem;
+  margin-bottom: 10rem;
 }
 
 .textBox1 {
