@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ambitious-somalia/static/css/main.186500c5.css",
+    "main.js": "/ambitious-somalia/static/js/main.dc105896.js",
+    "static/js/787.575a988f.chunk.js": "/ambitious-somalia/static/js/787.575a988f.chunk.js",
+    "static/media/mogadishumap.png": "/ambitious-somalia/static/media/mogadishumap.c1d680fde5cc771125f2.png",
+    "static/media/hargeysamap.png": "/ambitious-somalia/static/media/hargeysamap.7f5744f6d2f5f0a3a07f.png",
+    "static/media/burcomap.png": "/ambitious-somalia/static/media/burcomap.abd1e47bdc72d65d5bdc.png",
+    "static/media/kismaayomap.png": "/ambitious-somalia/static/media/kismaayomap.5067494e9e33a8db5fd2.png",
+    "static/media/bosasomap.png": "/ambitious-somalia/static/media/bosasomap.41124e54ea1656e7cfaf.png",
+    "static/media/berberamap.png": "/ambitious-somalia/static/media/berberamap.3fd40e3911c849fe2a88.png",
+    "static/media/simadlogo.png": "/ambitious-somalia/static/media/simadlogo.8f9530fd2faaf13ada97.png",
+    "static/media/iriselogo.png": "/ambitious-somalia/static/media/iriselogo.9b098995f486f341d55a.png",
+    "index.html": "/ambitious-somalia/index.html",
+    "main.186500c5.css.map": "/ambitious-somalia/static/css/main.186500c5.css.map",
+    "main.dc105896.js.map": "/ambitious-somalia/static/js/main.dc105896.js.map",
+    "787.575a988f.chunk.js.map": "/ambitious-somalia/static/js/787.575a988f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.186500c5.css",
+    "static/js/main.dc105896.js"
+  ]
+}
