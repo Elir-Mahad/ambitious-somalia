@@ -6,12 +6,17 @@ import Burco from "./components/cities/Burco";
 import Berbera from "./components/cities/Berbera";
 import Mogadishu from "./components/cities/Mogadishu";
 import Kismaayo from "./components/cities/Kismaayo";
+//
+import MogResources from "./components/resources/MogResources";
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
+          {/* resource pages below */}
+          <Route path="/mogadishu/mog-res" element={<MogResources />} />
+          {/* city pages below */}
           <Route path="/burco" element={<Burco />} />
           <Route path="/kismaayo" element={<Kismaayo />} />
           <Route path="/mogadishu" element={<Mogadishu />} />
