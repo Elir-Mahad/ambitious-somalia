@@ -1,11 +1,19 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import { Link } from "react-router-dom";
+import { CgMenuMotion } from "react-icons/cg";
+import { CgMenuRight } from "react-icons/cg";
 //
 function SideBar(props) {
   //
   return (
-    <Menu right {...props}>
+    <Menu
+      //
+      customBurgerIcon={<CgMenuRight />}
+      customCrossIcon={<CgMenuMotion />}
+      right
+      {...props}
+    >
       {/*  */}
       {/* <Link to="/"> */}
       <a>Home</a>
