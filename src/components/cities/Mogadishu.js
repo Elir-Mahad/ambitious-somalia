@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Fade from "react-reveal/Fade";
 import SideBar from "../SideBar";
+import Shake from "react-reveal/Shake";
 
 export default function Mogadishu() {
   //
@@ -89,9 +90,18 @@ export default function Mogadishu() {
                   brightest beacons for entrepreneurship in the world
                 </span>
               </p>
+              {/* <button className="resourcesbutton">
+                Explore your ecosystem
+              </button> */}
             </div>
           </Fade>
-          {/*  */}
+          <div className="resbox">
+            <Shake duration={25000} forever={true}>
+              <button className="resourcesbutton">
+                Explore your ecosystem
+              </button>
+            </Shake>
+          </div>
         </div>
       </div>
     </div>

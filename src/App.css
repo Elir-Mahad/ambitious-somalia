@@ -104,12 +104,12 @@ body {
 }
 
 .textBox2 {
-  margin-left: 35rem;
+  margin-left: 43rem;
   width: 35rem;
 }
 
 .textBox3 {
-  margin-left: 35rem;
+  margin-left: 43rem;
   width: 35rem;
 }
 
@@ -132,6 +132,29 @@ body {
 
 .focus {
   font-weight: 800;
+}
+
+.resbox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.resourcesbutton {
+  background-image: linear-gradient(
+    270deg,
+    rgb(11, 51, 51) 0%,
+    rgb(21, 102, 100) 100%
+  );
+  border: none;
+  border-radius: 1rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* SIDEBAR */
