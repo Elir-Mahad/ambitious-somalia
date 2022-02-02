@@ -11,7 +11,8 @@ body {
 .landing {
   background-color: black;
   color: white;
-  padding: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 0.5rem;
 }
 
 .regionName {
@@ -170,8 +171,8 @@ body {
   position: relative;
   width: 25px;
   height: 25px;
-  left: 10px;
-  top: 0px;
+  right: 12px;
+  top: 7px;
   float: right;
 }
 
@@ -195,9 +196,9 @@ body {
 }
 
 /* Color/shape of close button cross */
-.bm-cross {
-  /* background: #bdc3c7; */
-}
+/* .bm-cross { */
+/* background: #bdc3c7; */
+/* } */
 
 /* General sidebar styles */
 .bm-menu {
