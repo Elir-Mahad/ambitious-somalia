@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Fade from "react-reveal/Fade";
+import SideBar from "../SideBar";
 
 export default function Mogadishu() {
   //
@@ -52,40 +53,47 @@ export default function Mogadishu() {
   //
   return (
     <div className="mogPage">
-      <Fade duration={5000}>
-        <div style={{ filter: blurOne }} className="textBox1">
-          <p className="heading">keys Stockholm </p>
-          <p className="hook">
-            Connecting <br />
-            <span className="focus">entrepreneurs </span> <br />
-            to their <span className="focus">ecosystem</span> <br />
-          </p>
+      <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
+      <div id="page-wrap">
+        <a className="menuHook">Explore your ecosystem</a>
+        <div>
+          <Fade duration={5000}>
+            <div style={{ filter: blurOne }} className="textBox1">
+              <p className="heading">keys Stockholm </p>
+              <p className="hook">
+                Connecting <br />
+                <span className="focus">entrepreneurs </span> <br />
+                to their <span className="focus">ecosystem</span> <br />
+              </p>
+            </div>
+          </Fade>
+          {/*  */}
+          <Fade duration={5000}>
+            <div style={{ filter: blurTwo }} className="textBox2">
+              <p className="hook2">
+                Discover your own <br />
+                <span className="focus">personal startup ecosystem </span>{" "}
+                <br />
+                with resources relevant to you <br />
+              </p>
+            </div>
+          </Fade>
+          {/*  */}
+          <Fade duration={5000}>
+            <div style={{ filter: blurThree }} className="textBox3">
+              <p className="hook2">
+                The Nordic heavyweight champion of investments, exits and
+                opportunities. Stockholm's investor-heavy, flat-hierarchy
+                community and solid tech and design talent makes it one of the
+                <span className="focus">
+                  brightest beacons for entrepreneurship in the world
+                </span>
+              </p>
+            </div>
+          </Fade>
+          {/*  */}
         </div>
-      </Fade>
-      {/*  */}
-      <Fade duration={5000}>
-        <div style={{ filter: blurTwo }} className="textBox2">
-          <p className="hook2">
-            Discover your own <br />
-            <span className="focus">personal startup ecosystem </span> <br />
-            with resources relevant to you <br />
-          </p>
-        </div>
-      </Fade>
-      {/*  */}
-      <Fade duration={5000}>
-        <div style={{ filter: blurThree }} className="textBox3">
-          <p className="hook2">
-            The Nordic heavyweight champion of investments, exits and
-            opportunities. Stockholm's investor-heavy, flat-hierarchy community
-            and solid tech and design talent makes it one of the
-            <span className="focus">
-              brightest beacons for entrepreneurship in the world
-            </span>
-          </p>
-        </div>
-      </Fade>
-      {/*  */}
+      </div>
     </div>
   );
 }

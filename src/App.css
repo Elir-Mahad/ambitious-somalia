@@ -92,9 +92,6 @@ body {
   background-attachment: fixed;
   /*  */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding-bottom: 2rem;
 }
 
@@ -106,7 +103,7 @@ body {
 }
 
 .textBox1 {
-  margin-right: 30rem;
+  margin-left: 12rem;
 }
 
 .textBox2 {
@@ -154,13 +151,15 @@ body {
     rgb(11, 11, 11) 0%,
     rgb(25, 25, 25) 100%
   );
-  float: right;
   margin-right: 2rem;
   margin-top: 0.2rem;
   padding: 0.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
   border-radius: 2rem;
+  color: white;
+  position: fixed;
+  right: 0;
 }
 
 /* Individual item */
@@ -179,7 +178,6 @@ body {
 .bm-item:hover {
   background-color: white;
   color: black;
-  /* color: white; */
 }
 
 /* The rest copied directly from react-burger-menu docs */
@@ -192,6 +190,7 @@ body {
   right: 12px;
   top: 15px;
   float: right;
+  color: white;
 }
 
 /* @media (max-width: 500px) {
@@ -212,6 +211,7 @@ body {
 .bm-cross-button {
   height: 24px;
   width: 24px;
+  color: white;
 }
 
 /* Color/shape of close button cross */

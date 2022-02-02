@@ -1,6 +1,6 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { CgMenuMotion } from "react-icons/cg";
 import { CgMenuRight } from "react-icons/cg";
 //
