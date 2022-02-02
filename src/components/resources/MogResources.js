@@ -11,7 +11,7 @@ function MogResources() {
       <div id="page-wrap">
         <a className="menuHook">Explore your ecosystem</a>
         <div className="resTextBox">
-          <p className="heading">keys Stockholm </p>
+          <p className="heading">keys Mogadishu </p>
           <p className="hook">
             Keys navigates the ecosystem to help <br />
             <span className="focus">

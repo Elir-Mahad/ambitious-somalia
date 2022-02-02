@@ -61,7 +61,7 @@ export default function Mogadishu() {
         <div>
           <Fade duration={5000}>
             <div style={{ filter: blurOne }} className="textBox1">
-              <p className="heading">keys Stockholm </p>
+              <p className="heading">keys Mogadishu </p>
               <p className="hook">
                 Connecting <br />
                 <span className="focus">entrepreneurs </span> <br />
@@ -84,11 +84,12 @@ export default function Mogadishu() {
           <Fade duration={5000}>
             <div style={{ filter: blurThree }} className="textBox3">
               <p className="hook2">
-                The Nordic heavyweight champion of investments, exits and
-                opportunities. Stockholm's investor-heavy, flat-hierarchy
-                community and solid tech and design talent makes it one of the
+                The Mogadishu tech ecosystem is booming and full of
+                opportunities. The silicon sector is investor-heavy, with a
+                flat-hierarchy community, and a solid tech and design talent.
+                These things make it one of the{" "}
                 <span className="focus">
-                  brightest beacons for entrepreneurship in the world
+                  brightest beacons for entrepreneurship in the world.
                 </span>
               </p>
               {/* <button className="resourcesbutton">

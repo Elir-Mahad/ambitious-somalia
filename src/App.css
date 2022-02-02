@@ -43,37 +43,43 @@ body {
 }
 
 .mogadishubg {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%),
+  /* background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%), */
+  background-image: radial-gradient(rgba(0, 0, 0, 0.05) -70%, rgb(0, 0, 0) 65%),
     url("./assets/mogadishumap.png");
   background-size: contain;
 }
 
 .kismaayobg {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%),
+  /* background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%), */
+  background-image: radial-gradient(rgba(0, 0, 0, 0.05) -70%, rgb(0, 0, 0) 65%),
     url("./assets/kismaayomap.png");
   background-size: contain;
 }
 
 .bosasobg {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%),
+  /* background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%), */
+  background-image: radial-gradient(rgba(0, 0, 0, 0.05) -70%, rgb(0, 0, 0) 65%),
     url("./assets/bosasomap.png");
   background-size: contain;
 }
 
 .hargeysabg {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%),
+  /* background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%), */
+  background-image: radial-gradient(rgba(0, 0, 0, 0.05) -70%, rgb(0, 0, 0) 65%),
     url("./assets/hargeysamap.png");
   background-size: contain;
 }
 
 .burcobg {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%),
+  /* background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%), */
+  background-image: radial-gradient(rgba(0, 0, 0, 0.05) -70%, rgb(0, 0, 0) 65%),
     url("./assets/burcomap.png");
   background-size: contain;
 }
 
 .berberabg {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%),
+  /* background-image: radial-gradient(rgba(0, 0, 0, 0.05) 38%, rgb(0, 0, 0) 70%), */
+  background-image: radial-gradient(rgba(0, 0, 0, 0.05) -70%, rgb(0, 0, 0) 65%),
     url("./assets/berberamap.png");
   background-size: contain;
 }
