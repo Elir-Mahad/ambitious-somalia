@@ -25,7 +25,7 @@ function App() {
           <Route path="/berbera" element={<Berbera />} />
           <Route path="/burco" element={<Burco />} />
           <Route path="/hargeisa" element={<Hargeisa />} />
-          <Route path="/" element={<Region />} />
+          <Route path="/ambitious-somalia" element={<Region />} />
         </Routes>
       </Router>
     </div>
