@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ambitious-somalia/static/css/main.186500c5.css",
-    "main.js": "/ambitious-somalia/static/js/main.bbf943d6.js",
+    "main.js": "/ambitious-somalia/static/js/main.8391ff63.js",
     "static/js/787.575a988f.chunk.js": "/ambitious-somalia/static/js/787.575a988f.chunk.js",
     "static/media/mogadishumap.png": "/ambitious-somalia/static/media/mogadishumap.c1d680fde5cc771125f2.png",
     "static/media/hargeysamap.png": "/ambitious-somalia/static/media/hargeysamap.7f5744f6d2f5f0a3a07f.png",
@@ -13,11 +13,11 @@
     "static/media/iriselogo.png": "/ambitious-somalia/static/media/iriselogo.9b098995f486f341d55a.png",
     "index.html": "/ambitious-somalia/index.html",
     "main.186500c5.css.map": "/ambitious-somalia/static/css/main.186500c5.css.map",
-    "main.bbf943d6.js.map": "/ambitious-somalia/static/js/main.bbf943d6.js.map",
+    "main.8391ff63.js.map": "/ambitious-somalia/static/js/main.8391ff63.js.map",
     "787.575a988f.chunk.js.map": "/ambitious-somalia/static/js/787.575a988f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.186500c5.css",
-    "static/js/main.bbf943d6.js"
+    "static/js/main.8391ff63.js"
   ]
 }
