@@ -3,7 +3,7 @@ import React from "react";
 function Berbera() {
   return (
     <div>
-      <h1>Berbera</h1>
+      <h1>Berbera city</h1>
     </div>
   );
 }
